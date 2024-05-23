@@ -1,0 +1,106 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  align-items: center;
+  justify-items: center;
+  margin-top: 30px;
+}
+
+.card {
+  width: 400px;
+  height: 450px;
+  background-color: transparent;
+  border: 3px solid #186136;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  place-self: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img {
+  max-width: 73%;
+  height: auto;
+  margin-bottom: 5px;
+  /* border: 1px solid #57BB8A; */
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
+.saepe {
+  max-width: 60%;
+}
+
+/* BOTÃO DOS CARDS */
+.btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #186136;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #186136;
+  border: 2px solid #186136;
+  font-weight: 600;
+}
+
+/* NOME INFORMAÇÕES */
+.info {
+  font-size: 24px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.nome {
+  width: 7em;
+  border-bottom: 2px solid #186136;
+}
+
+.card1, .card2 {
+  display: none;
+}
+
+/* RESPONSIVIDADE DOS CARDS */
+@media (max-width: 1270px) {
+  .card1, .card2 {
+    display: flex;
+  }
+  .alfabetizada, .avaliacao {
+    display: none;
+  }
+
+  .conteiner {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+  }
+  .card {
+    width: 340px;
+    height: 420px;
+    background-color: transparent;
+    border: 3px solid #186136;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    place-self: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .info {
+    font-size: 20px;
+    /* margin-left: 50px; */
+    font-weight: bold;
+  }
+}
