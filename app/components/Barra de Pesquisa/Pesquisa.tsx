@@ -8,7 +8,9 @@ const Pesquisa: React.FC = () => {
       <section className='pesquisa'>
         <div className='search'>
           <label htmlFor="searchInput">
-          <CiSearch />
+          <i className='icon'>
+            <CiSearch />
+          </i>
           </label>
           <input type="text" id="searchInput" placeholder="Digite aqui" />
         </div>

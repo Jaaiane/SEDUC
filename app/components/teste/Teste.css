@@ -3,16 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.icon {
-    color: white;
-}
-
-.img-inicial {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-}
 
 .container {
     max-width: 1170px;
@@ -146,6 +136,7 @@
     display: none;
 }
 
+/* RESPONSIVIDADE DO NAVBAR */
 @media(max-width:991px) {
     .header {
         padding: 12px 0;
@@ -314,10 +305,10 @@
     }
 }
 
-/* hero */
-.hero {
-    min-height: 100vh;
-    background-color: palegreen;
-    background-size: cover;
-    background-position: center;
+/* IMAGEM PRINCIPAL */
+.img-inicial {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }

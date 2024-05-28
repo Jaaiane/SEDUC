@@ -3,6 +3,7 @@ import "../Galeria/ImageGallery.css";
 
 const ImageGallery: React.FC = () => {
   return (
+    // GALERIA DE IMAGENS PARA TELAS MAIORES
     <div className="conteiner">
       <div className="container1">
         <img
@@ -19,11 +20,14 @@ const ImageGallery: React.FC = () => {
       </div>
       <div className="container4">
         <img src="/image/plemus.png" alt="PLEMUS" className="plemus" />
-        <h3 className="textGaleria">
+        <h3 className="text-galeria">
           PLATAFORMA DA EDUCAÇÃO DO MUNICÍPIO DE SÃO LOURENÇO DA MATA - PLEMUS
         </h3>
       </div>
     </div>
+
+    // GALERIA DE IMAGENS RESPONSIVAS
+    
   );
 };
 

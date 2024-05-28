@@ -38,7 +38,7 @@ const InfoCards: React.FC = () => {
           </article>
 
           <article className='card'>
-            <img src="/image/saeb.png" alt="SAEBE" className='img' />
+            <img src="/image/saeb.png" alt="SAEBE" className='saebe' />
             <h3 className='text'>SAEBE</h3>
             <h4>RESULTADO DE PROFICIÊNCIA DO SAEB 2023</h4>
             <button className='btn'>ACESSAR</button>

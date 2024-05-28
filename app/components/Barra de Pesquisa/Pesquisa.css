@@ -1,35 +1,39 @@
 .pesquisa {
-    background-color: #57bb8a;
-    height: 100px;
-    margin-top: 10px;
-    display: flex;
-  }
-  
-  ::-webkit-input-placeholder {
-    color: whitesmoke;
-  }
-  
-  .search {
-    display: flex;
-    align-items: center;
-    border: 2px solid white;
-    background-color: #00000006;
-    width: 700px;
-    margin: 20px auto;
-    border-radius: 20px;
-    padding: 5px 10px;
-    color: white;
-  }
-  
-  #searchInput {
-    padding: 20px;
-    border: none;
-    background-color: transparent;
-    width: 100%;
-    outline: none;
-    margin: 2px;
-  }
-  
-  .search label {
-    height: 20px;
-  }
+  background-color: #57bb8a;
+  height: 110px;
+  margin-top: 10px;
+  display: flex;
+}
+
+::-webkit-input-placeholder {
+  color: whitesmoke;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  /* background-color: #00000006; */
+  width: 700px;
+  margin: 20px auto;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: white;
+}
+
+#searchInput {
+  padding: 20px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  margin: 2px;
+}
+
+.search label {
+  height: 30px;
+}
+
+.icon {
+  font-size: 30px;
+}
