@@ -37,3 +37,45 @@
 .icon {
   font-size: 30px;
 }
+
+@media (max-width:800px) {
+  .search {
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    background-color: #00000006;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+  }
+}
+
+@media (max-width:600px) {
+  .search {
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    background-color: #00000006;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+  }
+}
+
+@media (max-width:400px) {
+  .search {
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    background-color: #00000006;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+  }
+}

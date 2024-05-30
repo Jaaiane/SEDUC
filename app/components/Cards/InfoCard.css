@@ -119,10 +119,12 @@
     justify-content: center;
     width: 100%;
     height: 60px;
-    background-color: #37b36b6c;
+    background-color: #018839a5;
     margin-left: 0;
   }
   .nome {
     border-bottom: 0;
+    margin-left: 8px;
+    color: white;
   }
 }

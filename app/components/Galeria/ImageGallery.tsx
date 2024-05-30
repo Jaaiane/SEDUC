@@ -3,7 +3,6 @@ import "../Galeria/ImageGallery.css";
 
 const ImageGallery: React.FC = () => {
   return (
-    // GALERIA DE IMAGENS PARA TELAS MAIORES
     <div className="conteiner">
       <div className="container1">
         <img
@@ -25,8 +24,6 @@ const ImageGallery: React.FC = () => {
         </h3>
       </div>
     </div>
-
-    // GALERIA DE IMAGENS RESPONSIVAS
     
   );
 };
