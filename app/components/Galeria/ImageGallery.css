@@ -7,7 +7,7 @@
   gap: 20px;
   justify-content: center;
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .container1,
@@ -35,8 +35,8 @@
 }
 
 .text-galeria {
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
+  letter-spacing: 1px;
 }
-
 

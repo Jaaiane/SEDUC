@@ -1,12 +1,12 @@
 .pesquisa {
-  background-color: #57bb8a;
+  background: #1d5c32;
   height: 110px;
   margin-top: 10px;
   display: flex;
 }
 
 ::-webkit-input-placeholder {
-  color: whitesmoke;
+  color: white;
 }
 
 .search {

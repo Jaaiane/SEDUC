@@ -1,3 +1,4 @@
+/* CARDS */
 .cardContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
@@ -22,6 +23,7 @@
   justify-content: space-between;
 }
 
+/* ELEMENTOS PRESENTES NOS CARDS */
 .img {
   max-width: 73%;
   height: auto;
@@ -31,10 +33,6 @@
 
 .text {
   margin-bottom: 15px;
-}
-
-.saepe {
-  max-width: 60%;
 }
 
 /* BOTÃO DOS CARDS */
@@ -54,6 +52,15 @@
   font-weight: 600;
 }
 
+/* AJUSTES EM ALGUMAS IMAGENS */
+.saebe {
+  max-width: 150%;
+}
+
+.saepe {
+  max-width: 60%;
+}
+
 /* NOME INFORMAÇÕES */
 .info {
   font-size: 24px;
@@ -63,26 +70,24 @@
 
 .nome {
   width: 7em;
+  letter-spacing: 1px;
   border-bottom: 2px solid #186136;
 }
 
-.card1, .card2 {
+/* ESCONDER ÚLTIMOS CARDS */
+.card1,
+.card2 {
   display: none;
 }
 
-/* AJUSTES EM ALGUMAS IMAGENS */
-.saebe {
-  max-width: 150%;
-}
-
-
-
 /* RESPONSIVIDADE DOS CARDS */
 @media (max-width: 1270px) {
-  .card1, .card2 {
+  .card1,
+  .card2 {
     display: flex;
   }
-  .alfabetizada, .avaliacao {
+  .alfabetizada,
+  .avaliacao {
     display: none;
   }
 
@@ -91,8 +96,8 @@
     grid-template-rows: repeat(2, auto);
   }
   .card {
-    width: 340px;
-    height: 420px;
+    width: 310px;
+    height: 410px;
     background-color: transparent;
     border: 3px solid #186136;
     border-radius: 10px;
@@ -107,24 +112,24 @@
   }
   .info {
     font-size: 20px;
-    /* margin-left: 50px; */
     font-weight: bold;
   }
 }
 
-@media (max-width: 790px) {
+/* RESPONSIVIDADE DO CONTAINER INFORMAÇÕES */
+@media (max-width: 800px) {
   .info {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 60px;
-    background-color: #018839a5;
+    background-color: #186136;
     margin-left: 0;
   }
   .nome {
     border-bottom: 0;
-    margin-left: 8px;
+    margin-left: 20px;
     color: white;
   }
 }
